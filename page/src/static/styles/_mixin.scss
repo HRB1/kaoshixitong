@@ -1,0 +1,69 @@
+@mixin W($width:100vw){
+    width:$width;
+}
+@mixin H($height:100vh){
+    height:$height;
+}
+@mixin center($center) {
+    text-align: $center;
+}
+@mixin display_flex($level:flex-start,$vertical:flex-start){
+    display: flex;
+    justify-content: $level;
+    align-items: $vertical;
+}
+@mixin setLine($c: #C7C7C7) {
+    &{
+        border: 1px solid $c;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        & { border: .5px solid $c }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+        & { border: .5px solid $c }
+    }
+}
+@mixin setBottomLine($c: #C7C7C7) {
+    &{
+        border-bottom: 1px solid $c;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        & { border-bottom: .5px solid $c }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+        & { border-bottom: .333333px solid $c }
+    }
+}
+@mixin setTopLine($c: #C7C7C7) {
+    &{
+        border-top: 1px solid $c;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        & { border-top: .5px solid $c }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+        & { border-top: .333333px solid $c }
+    }
+}
+@mixin setLeftLine($c: #C7C7C7) {
+    &{
+        border-left: 1px solid $c;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        & { border-left: .5px solid $c }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+        & { border-left: .333333px solid $c }
+    }
+}
+@mixin setRightLine($c: #C7C7C7) {
+    &{
+        border-right: 1px solid $c;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        & { border-right: .5px solid $c }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+        & { border-right: .333333px solid $c }
+    }
+}

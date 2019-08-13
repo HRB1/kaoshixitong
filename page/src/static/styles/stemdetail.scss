@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    height: 100%;
+  }
+  .header_title {
+    font-size: 22px;
+    margin: 2.5%;
+  }
+  .mainss {
+    width: 100%;
+    padding: 14px;
+    display: flex;
+    .main_stem {
+      width: 60%;
+      flex-shrink: 0;
+      border-radius: 10px;
+      background: #fff;
+      padding: 10px;
+      overflow: auto;
+      box-sizing: border-box;
+  
+      .username {
+        color: #666;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      .stemname {
+        background: #e6f7ff;
+        margin: 10px;
+        color: #666;
+        overflow: auto;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        line-height: 30px;
+      }
+      .list_item {
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+  
+        .el-button {
+          padding: 5px 10px;
+        }
+        .btn1 {
+          color: #1890ff;
+          background: #e6f7ff;
+          border-color: #91d5ff;
+        }
+  
+        .btn2 {
+          color: #2f54eb;
+          background: #f0f5ff;
+          border-color: #adc6ff;
+        }
+  
+        .btn3 {
+          color: #fa8c16;
+          background: #fff7e6;
+          border-color: #ffd591;
+        }
+      }
+    }
+    .main_stemAnu {
+      width: 500px;
+      overflow: auto;
+      background: #fff;
+      border-radius: 10px;
+      margin-left: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      .stemAnu_con {
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        background: #eeee;
+        margin: 10px;
+        color: #657b83;
+        line-height: 20px;
+        overflow: auto;
+      }
+    }
+  }
